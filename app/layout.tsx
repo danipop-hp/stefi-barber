@@ -17,9 +17,11 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'Ștefi Barber — Frizerie de lux',
-  description:
-    'Programează-te online la Ștefi Barber. Tuns clasic sau modern, aranjat barbă și pachet full. Confirmare instant și reamintire prin SMS.',
+  title: 'Ștefi Barber - Old Forge',
+  description: 'Programează-te online la Ștefi Barber...',
+  icons: {
+    icon: '/old-forge-logo.png',
+  },
 }
 
 export const viewport: Viewport = {
