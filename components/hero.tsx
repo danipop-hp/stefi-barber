@@ -89,13 +89,6 @@ export function Hero() {
               Vezi serviciile
             </motion.a>
           </div>
-
-          <dl className="mt-12 flex gap-10">
-            <div>
-              <dt className="text-sm text-muted-foreground">Experiență</dt>
-              <dd className="font-serif text-3xl font-bold text-primary">3 luni</dd>
-            </div>
-          </dl>
         </motion.div>
       </div>
     </section>
