@@ -15,7 +15,7 @@ export default function BookingSection() {
             Rezervă-ți locul în câteva secunde
           </h2>
           <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-            Completează formularul după selectarea serviciului, alege ziua și ora care ți se potrivesc, iar
+            Completează formularul după selectarea serviciului (vezi mai sus), alege ziua și ora care ți se potrivesc, iar
             noi ne ocupăm de rest.
           </p>
         </div>
