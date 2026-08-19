@@ -117,18 +117,19 @@ export function Services() {
                 </p>
               </div>
 
-              <div className="mt-8 pt-5 border-t border-border/60 flex items-center justify-between">
-                <div>
-                  <span className="text-xs text-muted-foreground block">Preț</span>
-                  <span className="font-serif text-2xl font-bold text-primary">
-                    {service.price}
-                  </span>
-                </div>
+             <div className="mt-8 pt-5 border-t border-border/60 flex items-center justify-between">
+            <div>
+              <span className="text-xs text-muted-foreground block">Preț</span>
+              <span className="font-serif text-2xl font-bold text-primary">
+              {service.price}
+            </span>
+            </div>
 
-                <span className="text-xs font-semibold uppercase tracking-wider text-primary opacity-0 -translate-x-3 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0">
-                  Rezervă →
-                </span>
-              </div>
+  
+          <span className="text-xs font-semibold uppercase tracking-wider text-primary opacity-100 translate-x-0 md:opacity-0 md:-translate-x-3 md:transition-all md:duration-300 md:group-hover:opacity-100 md:group-hover:translate-x-0">
+            Rezervă →
+          </span>
+        </div>
             </motion.div>
           )
         })}
